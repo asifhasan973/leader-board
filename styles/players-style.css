@@ -1,0 +1,73 @@
+/* common-styles */
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+   
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.player-blog-section{
+    background-color: #FFFFFF;
+    width: 870px;
+    height: 679px;
+    padding: 0px 50px 50px 30px;
+    
+}
+
+
+
+.top-player-heading{
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: -10px;
+}
+
+.players-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player-name{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.player-name img{
+    width: 56px;
+}
+
+.player-name h3{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
+
+/* players-part-finish */
+
+.blogs-heading{
+    color: #562EFF;
+    font-size: 24px;
+}
+
+.blogs-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.each-blog{
+    display: flex;
+}
+
+.each-blog img{
+    width: 177px;
+    height: 117px;
+}

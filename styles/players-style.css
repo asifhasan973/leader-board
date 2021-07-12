@@ -51,7 +51,9 @@ hr{
     margin-top: 30px;
 }
 
-/* players-part-finish */
+/* ----------------
+--- players-part-finish
+-------------------- */
 
 .blogs-heading{
     color: #562EFF;
@@ -61,6 +63,7 @@ hr{
 .blogs-list{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
 }
 
 .each-blog{
@@ -71,3 +74,19 @@ hr{
     width: 177px;
     height: 117px;
 }
+
+.each-blog .blog-details{
+    margin-left: 16px;
+    margin-top: -23px;
+    
+}
+.each-blog .blog-details .by{
+    color: #9F9F9F;
+}
+
+.each-blog .blog-details .witter {
+    color: #562EFF;
+}
+/* it-should-be-writter */
+
+
